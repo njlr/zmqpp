@@ -1,0 +1,103 @@
+cxx_binary(
+  name = 'grasslands',
+  srcs = [
+    'grasslands.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:zmqpp',
+  ],
+)
+
+cxx_binary(
+  name = 'ironhouse',
+  srcs = [
+    'ironhouse.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:zmqpp',
+  ],
+)
+
+cxx_binary(
+  name = 'ironhouse2',
+  srcs = [
+    'ironhouse2.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:zmqpp',
+  ],
+)
+
+cxx_binary(
+  name = 'simple-client',
+  srcs = [
+    'simple_client.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:zmqpp',
+  ],
+)
+
+cxx_binary(
+  name = 'simple-server',
+  srcs = [
+    'simple_server.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:zmqpp',
+  ],
+)
+
+cxx_binary(
+  name = 'stonehouse',
+  srcs = [
+    'stonehouse.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:zmqpp',
+  ],
+)
+
+cxx_binary(
+  name = 'strawhouse',
+  srcs = [
+    'strawhouse.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:zmqpp',
+  ],
+)
+
+cxx_binary(
+  name = 'woodhouse',
+  srcs = [
+    'woodhouse.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:zmqpp',
+  ],
+)
